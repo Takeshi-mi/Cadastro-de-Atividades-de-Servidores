@@ -1,9 +1,12 @@
 package atividadeservidores;
 
+import view.FrmLogin;
+
 public class AtividadeServidores {
 
     public static void main(String[] args) {
-        // TODO code application logic here
+        FrmLogin login = new FrmLogin();
+        login.setVisible(true);
     }
     
 }
