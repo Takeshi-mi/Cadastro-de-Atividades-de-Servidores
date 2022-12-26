@@ -80,7 +80,7 @@ public class FrmLogin extends javax.swing.JFrame {
 
         lblImagePadlock.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
         lblImagePadlock.setForeground(new java.awt.Color(102, 102, 102));
-        lblImagePadlock.setIcon(<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" zoomAndPan="magnify" viewBox="0 0 30 30.000001" height="40" preserveAspectRatio="xMidYMid meet" version="1.0"><defs><clipPath id="be27c1a666"><path d="M 4.765625 1 L 25 1 L 25 27.773438 L 4.765625 27.773438 Z M 4.765625 1 " clip-rule="nonzero"/></clipPath></defs><g clip-path="url(#be27c1a666)"><path fill="#a6a6a6" d="M 22.386719 10.46875 L 21.601562 10.46875 C 21.6875 9.078125 21.773438 5.339844 19.613281 2.921875 C 18.453125 1.625 16.878906 1.007812 14.929688 1.007812 C 14.929688 1.007812 14.929688 1.007812 14.925781 1.007812 C 12.894531 1.007812 11.253906 1.648438 10.058594 2.988281 C 7.890625 5.417969 7.957031 9.355469 8.039062 10.46875 L 7.46875 10.46875 C 6.015625 10.46875 4.789062 11.644531 4.789062 13.089844 L 4.789062 25.144531 C 4.789062 26.589844 6.015625 27.726562 7.46875 27.726562 L 22.386719 27.726562 C 23.839844 27.726562 24.945312 26.589844 24.945312 25.144531 L 24.945312 13.089844 C 24.945312 11.644531 23.839844 10.46875 22.386719 10.46875 Z M 16.773438 23.550781 L 13.3125 23.550781 L 13.863281 19.710938 C 13.03125 19.3125 12.453125 18.449219 12.453125 17.472656 C 12.453125 16.113281 13.5625 14.996094 14.929688 14.996094 C 16.292969 14.996094 17.402344 16.09375 17.402344 17.449219 C 17.402344 18.363281 16.894531 19.199219 16.15625 19.625 Z M 19.21875 10.46875 L 10.421875 10.46875 C 10.367188 9.914062 10.167969 6.347656 11.839844 4.484375 C 12.574219 3.660156 13.585938 3.234375 14.929688 3.234375 C 16.1875 3.234375 17.136719 3.640625 17.832031 4.417969 C 19.496094 6.277344 19.273438 9.914062 19.21875 10.46875 Z M 19.21875 10.46875 " fill-opacity="1" fill-rule="nonzero"/></g></svg>);
+        lblImagePadlock.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/greypadlock.png"))); // NOI18N
         lblImagePadlock.setText("Login");
         lblImagePadlock.setToolTipText("");
 
@@ -101,19 +101,23 @@ public class FrmLogin extends javax.swing.JFrame {
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGap(97, 97, 97)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                        .addComponent(lblPassword, javax.swing.GroupLayout.Alignment.LEADING)
-                        .addComponent(btnAcess, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(pwdPassword, javax.swing.GroupLayout.Alignment.LEADING)
-                        .addGroup(jPanel1Layout.createSequentialGroup()
-                            .addComponent(btnClear)
-                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 118, Short.MAX_VALUE)
-                            .addComponent(btnExit))
-                        .addComponent(txtUser))
-                    .addComponent(lblUser)
-                    .addComponent(jSeparator1, javax.swing.GroupLayout.PREFERRED_SIZE, 255, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(lblImagePadlock, javax.swing.GroupLayout.PREFERRED_SIZE, 143, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(103, Short.MAX_VALUE))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                .addComponent(lblPassword, javax.swing.GroupLayout.Alignment.LEADING)
+                                .addComponent(btnAcess, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(pwdPassword, javax.swing.GroupLayout.Alignment.LEADING)
+                                .addGroup(jPanel1Layout.createSequentialGroup()
+                                    .addComponent(btnClear)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 118, Short.MAX_VALUE)
+                                    .addComponent(btnExit))
+                                .addComponent(txtUser))
+                            .addComponent(lblUser)
+                            .addComponent(jSeparator1, javax.swing.GroupLayout.PREFERRED_SIZE, 255, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addContainerGap(103, Short.MAX_VALUE))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addComponent(lblImagePadlock, javax.swing.GroupLayout.PREFERRED_SIZE, 143, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -132,7 +136,7 @@ public class FrmLogin extends javax.swing.JFrame {
                 .addComponent(pwdPassword, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addComponent(btnAcess, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 16, Short.MAX_VALUE)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(btnExit)
                     .addComponent(btnClear))

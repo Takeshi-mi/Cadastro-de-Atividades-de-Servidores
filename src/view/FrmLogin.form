@@ -54,22 +54,29 @@
               <Group type="102" attributes="0">
                   <EmptySpace min="-2" pref="97" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
-                          <Component id="lblPassword" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="btnAcess" alignment="0" max="32767" attributes="0"/>
-                          <Component id="pwdPassword" alignment="0" max="32767" attributes="0"/>
-                          <Group type="102" alignment="1" attributes="0">
-                              <Component id="btnClear" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace pref="118" max="32767" attributes="0"/>
-                              <Component id="btnExit" min="-2" max="-2" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Component id="lblPassword" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="btnAcess" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="pwdPassword" alignment="0" max="32767" attributes="0"/>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="btnClear" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace pref="118" max="32767" attributes="0"/>
+                                      <Component id="btnExit" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="txtUser" alignment="1" max="32767" attributes="0"/>
+                              </Group>
+                              <Component id="lblUser" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="jSeparator1" alignment="0" min="-2" pref="255" max="-2" attributes="0"/>
                           </Group>
-                          <Component id="txtUser" alignment="1" max="32767" attributes="0"/>
+                          <EmptySpace pref="103" max="32767" attributes="0"/>
                       </Group>
-                      <Component id="lblUser" alignment="0" min="-2" max="-2" attributes="0"/>
-                      <Component id="jSeparator1" alignment="0" min="-2" pref="255" max="-2" attributes="0"/>
-                      <Component id="lblImagePadlock" alignment="0" min="-2" pref="143" max="-2" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="lblImagePadlock" min="-2" pref="143" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
                   </Group>
-                  <EmptySpace pref="103" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -90,7 +97,7 @@
                   <Component id="pwdPassword" min="-2" pref="36" max="-2" attributes="0"/>
                   <EmptySpace type="separate" max="-2" attributes="0"/>
                   <Component id="btnAcess" min="-2" pref="38" max="-2" attributes="0"/>
-                  <EmptySpace max="32767" attributes="0"/>
+                  <EmptySpace pref="16" max="32767" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
                       <Component id="btnExit" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="btnClear" alignment="3" min="-2" max="-2" attributes="0"/>
@@ -170,8 +177,8 @@
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="66" green="66" red="66" type="rgb"/>
             </Property>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
-              <Connection code="&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot; width=&quot;40&quot; zoomAndPan=&quot;magnify&quot; viewBox=&quot;0 0 30 30.000001&quot; height=&quot;40&quot; preserveAspectRatio=&quot;xMidYMid meet&quot; version=&quot;1.0&quot;&gt;&lt;defs&gt;&lt;clipPath id=&quot;be27c1a666&quot;&gt;&lt;path d=&quot;M 4.765625 1 L 25 1 L 25 27.773438 L 4.765625 27.773438 Z M 4.765625 1 &quot; clip-rule=&quot;nonzero&quot;/&gt;&lt;/clipPath&gt;&lt;/defs&gt;&lt;g clip-path=&quot;url(#be27c1a666)&quot;&gt;&lt;path fill=&quot;#a6a6a6&quot; d=&quot;M 22.386719 10.46875 L 21.601562 10.46875 C 21.6875 9.078125 21.773438 5.339844 19.613281 2.921875 C 18.453125 1.625 16.878906 1.007812 14.929688 1.007812 C 14.929688 1.007812 14.929688 1.007812 14.925781 1.007812 C 12.894531 1.007812 11.253906 1.648438 10.058594 2.988281 C 7.890625 5.417969 7.957031 9.355469 8.039062 10.46875 L 7.46875 10.46875 C 6.015625 10.46875 4.789062 11.644531 4.789062 13.089844 L 4.789062 25.144531 C 4.789062 26.589844 6.015625 27.726562 7.46875 27.726562 L 22.386719 27.726562 C 23.839844 27.726562 24.945312 26.589844 24.945312 25.144531 L 24.945312 13.089844 C 24.945312 11.644531 23.839844 10.46875 22.386719 10.46875 Z M 16.773438 23.550781 L 13.3125 23.550781 L 13.863281 19.710938 C 13.03125 19.3125 12.453125 18.449219 12.453125 17.472656 C 12.453125 16.113281 13.5625 14.996094 14.929688 14.996094 C 16.292969 14.996094 17.402344 16.09375 17.402344 17.449219 C 17.402344 18.363281 16.894531 19.199219 16.15625 19.625 Z M 19.21875 10.46875 L 10.421875 10.46875 C 10.367188 9.914062 10.167969 6.347656 11.839844 4.484375 C 12.574219 3.660156 13.585938 3.234375 14.929688 3.234375 C 16.1875 3.234375 17.136719 3.640625 17.832031 4.417969 C 19.496094 6.277344 19.273438 9.914062 19.21875 10.46875 Z M 19.21875 10.46875 &quot; fill-opacity=&quot;1&quot; fill-rule=&quot;nonzero&quot;/&gt;&lt;/g&gt;&lt;/svg&gt;" type="code"/>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/images/greypadlock.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Login"/>
             <Property name="toolTipText" type="java.lang.String" value=""/>
